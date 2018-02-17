@@ -21,7 +21,7 @@ $signPackage = $jssdk->GetSignPackage();
     <div style="margin-top: 10%">1.确定手机已连接到WiFi</div>
     <div>2.请长按设备上的配置按钮3秒</div>
     <div>3.输入此WiFi密码,并点击连接</div>  
-    <img alt="" src="/wifibtn.png" class="connectWifi">   
+    <img alt="" src="wifibtn.png" id="connectWifi">   
   </div>
 </body>
 <script>
@@ -50,7 +50,7 @@ $signPackage = $jssdk->GetSignPackage();
         alert("请连接wifi网络");
       }
     });
-    $(".connectWifi").click(function(){
+    $("#connectWifi").click(function(){
       wx.invoke('configWXDeviceWiFi', {}, function(res) {
         if (res.err_msg == 'configWXDeviceWiFi:ok') {
           alert("配置成功");
