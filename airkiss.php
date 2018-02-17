@@ -59,6 +59,7 @@ $signPackage = $jssdk->GetSignPackage();
         } else if (res.err_msg == 'configWXDeviceWiFi:fail') {
           alert("配置失败!请重新配置");
         }
+        return false;
       });
     });
   });
