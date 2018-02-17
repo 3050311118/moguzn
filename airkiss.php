@@ -21,7 +21,7 @@ $signPackage = $jssdk->GetSignPackage();
     <div style="margin-top: 10%">1.确定手机已连接到WiFi</div>
     <div>2.请长按设备上的配置按钮3秒</div>
     <div>3.输入此WiFi密码,并点击连接</div>  
-    <button alt="" value="连接WIFI" class="connectWifi">   
+    <button class="connectWifi">连接WIFI</button> 
   </div>
 </body>
 <script>
