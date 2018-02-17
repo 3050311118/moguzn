@@ -22,7 +22,7 @@ $signPackage = $jssdk->GetSignPackage();
     <div>2.请长按设备上的配置按钮3秒</div>
     <div>3.输入此WiFi密码,并点击连接</div>  
     <!-- <img alt="" src="wifibtn.png" class="connectWifi">    -->
-    <input type="button" src="wifibtn.png" class="connectWifi"/>
+    <input name="" type="button"  style=" width:10px; height:10px;  border:0; background-image:url(wifibtn.png) no-repeat left top" class="connectWifi"/>
   </div>
 </body>
 <script>
